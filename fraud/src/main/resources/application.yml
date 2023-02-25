@@ -7,9 +7,9 @@ spring:
   application:
     name: Fraud
   datasource:
-    username: 'amigoscode'
+    username: mansour
     url: jdbc:postgresql://localhost:5432/fraud
-    password: 'password'
+    password: mansour
 
   jpa:
     properties:

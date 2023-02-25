@@ -6,9 +6,9 @@ spring:
    application:
      name: Client
    datasource:
-     username: 'amigoscode'
+     username: "mansour"
      url: jdbc:postgresql://localhost:5432/client
-     password: 'password'
+     password: "mansour"
 
    jpa:
            properties:
