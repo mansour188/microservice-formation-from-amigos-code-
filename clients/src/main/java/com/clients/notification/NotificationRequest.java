@@ -1,5 +1,7 @@
 package com.clients.notification;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,5 +15,6 @@ public class NotificationRequest {
     private String toCustomerEmail;
 
     private String message;
-    private LocalDateTime sentAt;
+
+
 }
